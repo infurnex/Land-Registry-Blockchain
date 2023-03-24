@@ -1,0 +1,11 @@
+.MM{
+    position: fixed;
+    top: 8rem;
+    left: 10rem;
+    right:2rem;
+    bottom: 1rem;
+    background-color: rgb(237, 233, 233);
+}
+.MM-heading{
+    text-align: center;
+}

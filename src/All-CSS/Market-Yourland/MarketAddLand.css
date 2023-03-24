@@ -1,0 +1,278 @@
+.desktop-navgap{
+    height: 90px;
+}
+
+.MAL-sidebar{
+    padding-left: 9rem;
+    width: calc(100%-9rem);
+}
+.MAL-Everything{
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    /* position: fixed; */
+    /* margin-top: 1rem; */
+    margin-bottom: 1rem;
+    /* overflow-y: scroll; */
+
+}
+.MAL-main{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 45rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* padding-top: 2rem; */
+    background-color: white;
+    border-radius: 15px;
+    box-shadow:  1px 1px 10px #626262;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.MAL-heading{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem;
+    color: #232121;
+}
+.MAL-title{
+  font-size: 1rem;
+  color: rgb(40, 186, 234); 
+  font-weight: bold;
+}
+
+.MAL-general{
+    display: flex;
+    flex-wrap: wrap;
+}
+.MAL-general-div{
+    margin: 20px;
+    position: relative;
+    z-index: 0;
+}
+.MAL-general-div>div{
+    display: inline-block;
+    position: absolute;
+    top: -15px;
+    background-color: white;
+    margin-left: 15px;
+    padding: 1px;
+}
+.MAL-general-div>input{
+    width: 300px;
+    padding: 0.4rem;
+    border-radius: 15px;
+    padding-left: 10px;
+    border: 1px solid #a7a0a0;
+}
+.MAL-documents{
+    display: flex;
+    flex-wrap: wrap;
+}
+.MAL-documents-div{
+    margin: 20px;
+}
+.MAL-documents-div>input{
+    width: 200px;
+    border-radius: 20px;
+    background-color: #f0f5f6;
+}
+.MAL-documents-div>input::-webkit-file-upload-button{
+    background-color: #9056ed;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    cursor:pointer;
+}
+.MAL-documents-div>input::-webkit-file-upload-button:hover{
+    opacity: 0.7;
+}
+.MAL-submit{
+    text-align: center;
+    padding: 1rem;
+}
+.MAL-submit>button{
+    width: 200px;
+    font-size: 1.1rem;
+    border-radius: 15px;
+    background-color: rgb(40, 186, 234);
+    padding: 0.1rem;
+    border: none;
+    color: white;
+    box-sizing: border-box;
+    border: 0.1rem solid rgb(40, 186, 234);
+}
+.MAL-submit>button:hover{
+    cursor: pointer;
+    /* opacity: 0.5; */
+    color: rgb(40, 186, 234);
+    background-color: white;
+}
+.MAL-helps{
+    width: 500px;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow:  1px 1px 10px #626262;
+    padding: 5px;
+}
+.MAL-helps>div:nth-child(1){
+    font-size: 1.2rem;
+    padding: 5px;
+}
+.MAL-help-here{
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.MAL-Focus{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+}
+.MAL-Focus>div:first-child{
+    font-style:italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.MAL-Focus>input{
+    margin: 0 1rem 0 1rem;
+    width: 450px;
+    padding: 5px;
+}
+.MAL-note{
+    font-size: 12px;
+    padding: 10px;
+}
+.MAL-finalconfirm-main{
+    position: fixed;
+    z-index: 1000;
+    top: 0 ;
+    bottom : 0;
+    left : 0;
+    right : 0;
+    display: flex;
+    backdrop-filter: blur(1px);
+}
+.MAL-finalconfirm{
+    width: 450px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    align-items: center;
+    box-shadow: 1px 1px 10px rgb(74, 74, 74);
+
+}
+.MAL-finalconfirm>div:first-child{
+    font-size: 22px;
+    margin: 10px;
+}
+.MAL-finalconfirm>div:nth-child(3){
+    margin: 6px;
+    font-weight: bold;
+}
+.MAL-confirm-reject{
+    display: flex;
+    justify-content: space-evenly;
+}
+.MAL-confirm-reject>button{
+    width: 100px;
+    padding: 3px;
+    /* color: white; */
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.MAL-confirm-reject>button:nth-child(1){
+    background-color: rgb(80, 188, 80);
+    border: 1px solid rgb(80, 188, 80);
+}
+.MAL-confirm-reject>button:nth-child(1):hover{
+    background-color: white;
+    color: rgb(80, 188, 80);
+}
+.MAL-confirm-reject>button:nth-child(2){
+    background-color: rgb(216, 105, 105);
+    border: 1px solid rgb(216, 105, 105);
+}
+.MAL-confirm-reject>button:nth-child(2):hover{
+    background-color: white;
+    color: rgb(216, 105, 105);
+}
+.hide{
+    display: none;
+}
+
+
+.Creating-reqs{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.reqs{
+    width: 1100px;
+    height: 100px;
+    background: linear-gradient(to left , rgb(226, 203, 226) , rgb(169, 169, 229));
+    display: flex;
+    align-items: center;
+    margin: 16px 0 16px 0;
+}
+.req-detail{
+    width: 850px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.req-detail>div{
+    margin: 10px;
+    color: #232121;
+}
+.req-detail-head{
+    font-weight: bold;
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.req-status{
+    
+}
+
+.review-nft>div{
+    border: 1px solid black;
+    padding: 7px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.review-nft>div:nth-child(2){
+    width: 200px;
+    height: 30px;
+    font-size: 12px;
+    font-style: normal;
+    font-family: none;
+    overflow-y: scroll;
+}
+.approved-nft{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

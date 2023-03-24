@@ -1,0 +1,154 @@
+.profile-all{
+    background-color: white;
+    width: 750px;
+    margin: auto;
+    margin-bottom: 1rem;
+    border: 2px solid rgb(150, 148, 148);
+    padding: 1rem 2rem 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-name{
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(97, 96, 96);
+}
+
+
+
+.profile-part{
+    height: 450px;
+    width: 0.6rem;
+    background-color: rgb(248, 245, 245);
+    border-radius: 1rem;
+}
+
+.profile-main{
+    display: flex;
+}
+
+.profile-main-S1{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 500px;
+}
+.profile-discription{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 2rem 1rem 1rem;
+}
+.profile-heading{
+    font-weight: bold;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(154, 154, 246);
+}
+.profile-value{
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(97, 96, 96);
+    padding: 0.2rem;
+}
+.profile-discription>div{
+    padding: 0.5rem;
+}
+.profile-img{
+    padding: 1rem 6rem 0.5rem 2rem;
+    text-align: center;
+}
+.profile-img>img{
+    height: 10rem;
+    width : 10rem;
+    background-color: aqua;
+}
+
+.profile-wallet{
+    text-align: center;
+}
+.profile-wallet-btn{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 15px;
+    background: linear-gradient(to right,#9056ee, rgb(54, 174, 214));
+    border: none;
+    color: white;
+}
+
+.profile-wallet-btn:hover{
+    opacity: 0.8;
+}
+.profile-wallet-btn:active{
+    opacity: 0.5;
+}
+
+.profile-wallet-address-hide{
+    display: none;
+}
+.profile-wallet-address-show{
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color : rgb(97, 96, 96);
+    padding: 10px;
+}
+
+.profile-main-S2{
+    width: 30rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.profile-main-S2-land{
+    height: 7rem;
+    width: 27rem;
+    overflow-x: scroll;
+    border: 3px solid rgb(211, 211, 211);
+    border-radius: 5px;
+    margin: 5px 5px 20px 5px;
+}
+
+/* .profile-dynamic-width{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+} */
+.profile-land-cards{
+    height: 75px;
+    width: 100px;
+    margin: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.profile-notlogin{
+    text-align: center;
+    /* padding: 5rem; */
+    width: 100%;
+}
+.profile-login-img{
+    height: 250px;
+}
+.hide{
+    display: none;
+}
+.profile-add-not{
+  padding-left: 1rem;
+}
+.profile-add-not>button{
+    background-color:rgb(229, 230, 230);
+    color: black;
+    border: none;
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+}
+.profile-add-not>button:hover{
+    opacity: 0.8;
+}
+.profile-add-not>button:active{
+    opacity: 0.5;
+}

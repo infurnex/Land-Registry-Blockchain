@@ -1,0 +1,99 @@
+.NB{
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right:0;
+    left: 0;
+    justify-content: space-between;
+    background: linear-gradient(to right,#8f65d2, rgb(54, 174, 214));
+    padding: 0.5rem;
+    padding-top: 0;
+}
+.NB-navs{
+    display: flex;
+    /* justify-content: space-between; */
+    padding-top: 0.7rem;
+}
+.NB-navs-1{
+    display: flex;
+    align-items: center;
+    /* padding: 0.6rem; */
+}
+.NB-navs-1>img{
+    height: 4rem;
+}
+.NB-navs-1>div{
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    color: white;
+}
+.NB-navs-2{
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+}
+.NB-navs-2-div{
+    margin: 0.5rem;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    color: rgb(198, 193, 193);
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+.NB-navs-2-div:hover{
+    background-color: white;
+    color: #8f65d2;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.NB-LS{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-right: 1rem; */
+    /* align-self: center; */
+}
+.NB-L{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.NB-L-R{
+    margin: 0.3rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    color: rgb(250, 250, 250);
+    padding: 0.2rem;
+    text-decoration: underline;
+}
+.NB-L-R:hover{
+    background-color: white;
+    color: rgb(54, 174, 214);
+    border-radius: 0.4rem;
+}
+.NB-L-profile{
+    height: 1.3rem;
+    padding: 0.1rem;
+    border-radius: 1rem;
+    background-color: rgb(250, 250, 250);
+}
+.NB-S{
+    display: flex;
+    position: relative;
+}
+.NB-S>input{
+    width: 350px;
+    padding: 0.3rem;
+    border-radius: 20px;
+    padding-left: 1rem;
+    border: 1px solid rgb(165, 158, 158);
+    /* font-size: 1.2rem; */
+}
+.NB-S>img{
+    height: 1.6rem;
+    position: absolute;
+    right: 1px;
+}

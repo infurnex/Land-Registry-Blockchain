@@ -1,0 +1,35 @@
+.mssr{
+    width: 50rem;
+    background-color: white;
+}
+.mssr-heading{
+    display: flex;
+    background-color: rgb(159, 159, 250);
+    padding: 1rem;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 1.2rem;
+}
+.back-button{
+    height: 1.5rem;
+    width: 5rem;
+    margin-right:1rem;
+    background-color: rgb(75, 75, 254);
+    color: white;
+    border: 1px solid rgb(75, 75, 254);
+    border-radius: 1rem;
+}
+.back-button:hover{
+    color: rgb(75, 75, 254);
+    background-color: white;
+}
+.mssr-img{
+    height: 20rem;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.mssr-details{
+    width: 100%;
+    background-color: white;
+}

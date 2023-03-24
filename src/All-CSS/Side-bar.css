@@ -1,0 +1,35 @@
+.sb-div-0{
+    position: fixed;
+    background:  linear-gradient(#8f65d2, rgb(54, 174, 214)) ;
+    display: flex;
+    z-index: 1000;
+    flex-direction: column;
+    justify-content: center;
+    width: 130px;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    top: 85px;
+    bottom: 2px;
+    left: 4px;
+}
+.sb-div-p{
+    margin: 0.4rem;
+    padding-top: 0.4rem ;
+    padding-bottom: 0.4rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    margin-top:  3rem;
+    border: 1px solid white;
+}
+.sb-div-p:hover{
+    color:#8f65d2;
+    background-color: white;
+    cursor: pointer;
+}
+.sd-outlet{
+    padding: 85px 0 0 135px;
+}
